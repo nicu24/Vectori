@@ -31,8 +31,8 @@ public class Main {
 
         logger.info(" Resul Module: "+resultModule);
 
-        logger.info("Grade: "+ grade );
-        
+        logger.info("Grade +: "+ grade );
+
 
     }
 }
