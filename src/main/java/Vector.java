@@ -52,7 +52,7 @@ public class Vector{
        double a=Math.pow((v1.getP1().getX()-v1.getP2().getX()),2);
        double b=Math.pow((v1.getP1().getY()-v1.getP2().getY()),2);
        double ipotenuza=Math.sqrt(a+b);
-       double radian = Math.cos(  (v1.getP1().getX()-v1.getP2().getX())/ipotenuza);
+       double radian = Math.acos(  Math.abs((v1.getP1().getX()-v1.getP2().getX()))/ipotenuza);
        double grade = Math.toDegrees(radian);
         return grade;
     }
